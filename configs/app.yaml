@@ -1,0 +1,9 @@
+app:
+  model: gemini-2.5-flash
+  request_timeout_s: 30
+  max_retries: 3
+  retry_backoff_s: 2
+
+
+  cors:
+    allowed_origins: ["http://localhost:5173", "https://your-frontend.example.com"]
