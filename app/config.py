@@ -11,7 +11,6 @@ class AppConfig:
     max_retries: int
     retry_backoff_s: int
     cors_allowed_origins: List[str]
-
 def _load_yaml(path: str):
     with open(path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)

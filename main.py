@@ -24,6 +24,5 @@ gemini = GeminiClient(
     max_retries=CFG.max_retries,
     backoff_s=CFG.retry_backoff_s,
 )
-
 controller = AnalyzeController(facts_builder, gemini)
 api.include_router(build_router(controller))

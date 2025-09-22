@@ -33,7 +33,6 @@ class AnalyzeRequest(BaseModel):
 
         self.tokens = toks
         return self
-
 class AnalyzeResponse(BaseModel):
     facts: Dict[str, Any]
     report: str

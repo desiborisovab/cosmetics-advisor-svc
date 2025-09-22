@@ -2,7 +2,7 @@ from typing import Dict, Any, List, Optional
 
 class FactsBuilder:
     """
-    Assembles the minimal 'facts' payload from INPUT ONLY.
+    Assembles the minimal 'facts' payload from INPUT ONLY
     """
     def build(self,
               brand: Optional[str],

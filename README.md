@@ -7,7 +7,6 @@ A small, production-minded FastAPI service that takes a single **INCI** text inp
 The design is intentionally traditional: clear separation of **app** (HTTP/controllers/schemas), **domain** (core logic/data shaping), **services** (external I/O), and **configs** (YAML-based runtime settings). No hardcoded domain rules; the model does the reasoning.
 
 ---
-
 ## Table of Contents
 - [Features](#features)
 - [Architecture](#architecture)

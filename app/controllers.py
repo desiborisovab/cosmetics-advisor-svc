@@ -33,7 +33,6 @@ def build_router(controller: AnalyzeController) -> APIRouter:
     )
     def analyze(req: AnalyzeRequest):
         return controller.handle(req)
-
     @router.get("/healthz")
     def health():
         return {"status": "ok", "model": controller.gemini.model}
