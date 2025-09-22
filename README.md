@@ -1,6 +1,6 @@
-# Create a README.md file for the user's project and save it for download
 
-readme = r"""# Cosmetics Advisor (FastAPI + Google Gemini)
+
+Cosmetics Advisor (FastAPI + Google Gemini)
 
 A small, production-minded FastAPI service that takes a single **INCI** text input (ingredient label) plus a **user skin profile**, sends a cleanly-structured prompt to **Google Gemini**, and returns a human-readable analysis.
 
